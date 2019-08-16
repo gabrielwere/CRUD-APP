@@ -1,11 +1,10 @@
 <link href="/styles.css" type="text/css" rel="stylesheet"/>
-<title>Welcome</title>
-
-
-<!--insert users-->
-<h3>CREATE NEW USER</h3>
-<form action="/insert" method="POST">
-<input type="text" name="userName" placeholder="Enter your user name"/><br/>
+<!--updates users-->
+<h3>UPDATE USERS</h3>
+<form action="/update?_method=PUT" method="POST">
+<input type="text" name="userName" placeholder="Enter user name" required="required"/><br/>
+<b>Enter new details</b><br/>
+<input type="text" name="newUserName" placeholder="New User Name"/><br/>
 <input type="text" name="firstName" placeholder="Enter First Name" required="required"/><br/>
 <input type="text" name="middleName" placeholder="Enter Middle Name" required="required"/><br/>
 <input type="text" name="lastName" placeholder="Enter Last Name" required="required"/><br/>
@@ -13,8 +12,5 @@
 <input type="radio" name="gender" value="male" checked="checked"/>Male
 <input type="radio" name="gender" value="female" />Female
 <input type="radio" name="gender" value="other"/>Other<br/>
-<input type="submit" value="CREATE USER"/>
+<input type="submit" value="UPDATE USER"/>
 </form>
-
-
-
