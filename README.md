@@ -7,4 +7,4 @@ Create,read,update.delete users in a database.Writted in nodejs/expressjs using 
   <li>"/update" route for deleting documents. </li>
   </ul>
 # NOTE
-If you clone this repository:-  Maintain the file structure to make it easy to render static css files(or images if you want to)  The node modules directory will be installed once you install nodejs or if you already have it installed  The forms used for input have no styling to them,I focused mainly on the functionality
+If you clone this repository:-  Maintain the file structure to make it easy to render static css files(or images if you want to)<br/>The node modules directory will be installed once you install nodejs or if you already have it installed<br/>The forms used for input have no styling to them,I focused mainly on the functionality
